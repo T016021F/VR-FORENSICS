@@ -9,7 +9,7 @@ public class Interactable : MonoBehaviour {
     public Transform m_Holder { get; private set; }
 
     //How fast the object will rotate
-    float m_RotationSpeed = 75;
+    float m_RotationSpeed = 175;
 
 
     private void Awake()
@@ -23,7 +23,7 @@ public class Interactable : MonoBehaviour {
 
         m_Holder = parent;
         transform.SetParent(m_Holder);
-        transform.localPosition = Vector3.zero;
+        transform.localPosition = Vector3.left;
     }
 
     public void Drop(Vector3 velocity, Vector3 angularVelocity)

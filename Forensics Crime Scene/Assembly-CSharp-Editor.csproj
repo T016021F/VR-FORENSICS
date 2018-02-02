@@ -51,6 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\CIClothingEditor.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DCharacterManagerEditor.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DMorphEditor.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DResourceEditor.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DToolsEditor.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\MaterialImporter.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\MorphDebugInfo.cs" />
+     <Compile Include="Assets\MORPH3D\Scripts\Editor\SearchableWindow.cs" />
+     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Editor\HairShaderGUI.cs" />
+     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Editor\VolundMultiStandardShaderGUI.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
      <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
@@ -170,6 +180,18 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/t016021f/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="M3D_DLL">
+ <HintPath>C:/Users/t016021f/Downloads/VR-FORENSICS/Forensics Crime Scene/Assets/MORPH3D/Scripts/Plugins/M3D_DLL.dll</HintPath>
+ </Reference>
+ <Reference Include="M3DIMPORT_DLL">
+ <HintPath>C:/Users/t016021f/Downloads/VR-FORENSICS/Forensics Crime Scene/Assets/MORPH3D/Scripts/Plugins/M3DIMPORT_DLL.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/t016021f/Downloads/VR-FORENSICS/Forensics Crime Scene/Assets/MORPH3D/Scripts/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="MCS_Utilities">
+ <HintPath>C:/Users/t016021f/Downloads/VR-FORENSICS/Forensics Crime Scene/Assets/MORPH3D/Scripts/Plugins/MCS_Utilities.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
