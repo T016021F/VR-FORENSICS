@@ -23,7 +23,7 @@ public class Interactable : MonoBehaviour {
 
         m_Holder = parent;
         transform.SetParent(m_Holder);
-        transform.localPosition = Vector3.left;
+        transform.localPosition = Vector3.zero;
     }
 
     public void Drop(Vector3 velocity, Vector3 angularVelocity)
